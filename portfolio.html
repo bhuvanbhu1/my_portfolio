@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BHUVAN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">My Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#works">My Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact-me</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <section
+            class="d-flex justify-content-sm-center  justify-content-md-evenly align-items-center flex-column-reverse gap-4 flex-md-row">
+            <!-- hero  -->
+            <div
+                class="d-flex justify-content-sm-center align-items-center flex-column justify-content-md-start align-items-md-start ">
+                <h5>Hello!👋</h5>
+                <h1>I'm Bhuvan Patel😎</h1>
+                <p>A fullstack web-developer </p>
+                <p> Motivational speaker </p>
+                <p>JOCKER</p>
+                <button class="btn btn-danger btn-sm">🤘Rock Resume🤘</button>
+            </div>
+
+            <div class=" d-md-none w-50 h-50">
+                <img src="rockstar.jpg" alt="My photo" class="w-100 h-100 rounded-circle shadow">
+            </div>
+            <div class=" d-none d-md-block w-25 h-25 ">
+                <img src="rockstar.jpg" alt="My photo" class="w-100 h-100 rounded-circle shadow">
+            </div>
+        </section>
+
+        <section id="skills" class=" mt-4 p-4  ">
+            <!-- My skillls  -->
+            <h1 class="text-danger text-sm-center  ">My Skill Set</h1>
+            <div class=" d-md-none d-flex justify-content-evenly  mt-4">
+                <i class="fab fa-html5 fa-5x" style="color: #f4470b;"></i>
+                <i class="fab fa-css3-alt fa-5x text-primary "></i>
+                <i class="fab fa-bootstrap fa-5x" style="color: #730fef;"></i>
+            </div>
+            <div class=" d-none d-md-flex justify-content-evenly mt-4">
+                <i class="fab fa-html5 fa-7x" style="color: #f4470b;"></i>
+                <i class="fab fa-css3-alt fa-7x text-primary "></i>
+                <i class="fab fa-bootstrap fa-7x" style="color: #730fef;"></i>
+            </div>
+
+        </section>
+        <section id="works" class=" mt-4 p-4 ">
+            <!-- My works  -->
+
+            <h1 class="text-danger text-center ">My Works</h1>
+            <div class=" d-flex flex-column flex-md-row justify-content-md-evenly gap-3">
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1615653633551-25dd80d2765a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGZvb2QlMjBkZWxpdmVyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="food">
+                    <div class="card mb-2">
+                        <h5 class="card-title">Food-delivery Website</h5>
+                        <p class="card-text">You can order any kind of fastfood from anywhere! </p>
+                        <p>This is full responsive website by using Bootstrap</p>
+                        <a href="#" class="btn btn-danger">Source Code <i class="fab fa-github-square "></i></a>
+                    </div>
+                </div>
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1615653633551-25dd80d2765a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGZvb2QlMjBkZWxpdmVyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="food">
+                    <div class="card mb-2">
+                        <h5 class="card--title">Food-delivery Website</h5>
+                        <p class="card-text">You can order any kind of fastfood from anywhere! </p>
+                        <p>This is full responsive website by using Bootstrap</p>
+                        <a href="#" class="btn btn-danger">Source Code <i class="fab fa-github-square "></i></a>
+                    </div>
+                </div>
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1615653633551-25dd80d2765a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGZvb2QlMjBkZWxpdmVyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="food">
+                    <div class="card  mb-2">
+                        <h5 class="card-title">Food-delivery Website</h5>
+                        <p class="card-text">You can order any kind of fastfood from anywhere! </p>
+                        <p>This is full responsive website by using Bootstrap</p>
+                        <a href="#" class="btn btn-danger">Source Code <i class="fab fa-github-square "></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <!-- contact me  -->
+            <h1 class="text-danger text-center ">Contact & Feedback</h1>
+            <div class="row">
+                <div class="col-sm col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" required class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Feedback</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" required
+                                placeholder="Give your feedback " rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger"> Submit</button>
+                    </form>
+                </div>
+                <div class="col-sm col-md-4 ">
+                    <div class="mt-3">
+                        <h5><i class="fas fa-at text-danger mt-3"></i>Bhuvanpatel1506@gmailcom</h5>
+                        <button type="button" class="btn btn-link mt-2">
+                            <a href=""><i class="fab fa-github-square fa-3x text-danger "></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
